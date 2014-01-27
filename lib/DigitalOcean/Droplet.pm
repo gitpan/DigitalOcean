@@ -12,11 +12,11 @@ DigitalOcean::Droplet - Represents a Droplet object in the L<DigitalOcean> API
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 =head1 SYNOPSIS
 
@@ -313,7 +313,7 @@ method rebuild { $self->DigitalOcean->_external_request($self->id, @_) }
 
 =head2 enable_backups
 
-This method enables bakcups on your droplet.
+This method enables backups on your droplet.
 
     $droplet->enable_backups;
 
@@ -323,7 +323,7 @@ method enable_backups { $self->DigitalOcean->_external_request($self->id, @_) }
 
 =head2 disable_backups
 
-This method disables bakcups on your droplet.
+This method disables backups on your droplet.
 
     $droplet->disable_backups;
 

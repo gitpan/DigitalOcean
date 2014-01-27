@@ -99,15 +99,15 @@ my %ext_request = (
 
 =head1 NAME
 
-DigitalOcean - An OO interface to the DigitalOcean API.
+DigitalOcean - An OO interface to the Digital Ocean API.
 
 =head1 VERSION
 
-Version 0.07
+Version 0.08
 
 =cut
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 =head1 SYNOPSIS
 
@@ -310,13 +310,7 @@ sub _decode {
 
 sub _decode_many { 
 	my ($self, $type) = @_;
-
-	my @objs;
-	for my $obj (@{$self->api_obj}) { 
-		push @objs, $self->_decode($type,$obj);
-	}
-
-	return \@objs;
+	[map { $self->_decode($type, $_) } @{$self->api_obj}];
 }
 
 sub _create { 

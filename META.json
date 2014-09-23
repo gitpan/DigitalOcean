@@ -4,7 +4,7 @@
       "Adam Hopkins <srchulo@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "unknown"
    ],
@@ -45,5 +45,12 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.09"
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/srchulo/DigitalOcean.git",
+         "web" : "https://github.com/srchulo/DigitalOcean"
+      }
+   },
+   "version" : "0.10"
 }

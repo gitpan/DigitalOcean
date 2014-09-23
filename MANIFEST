@@ -1,0 +1,33 @@
+Changes
+lib/DigitalOcean.pm
+lib/DigitalOcean/Domain.pm
+lib/DigitalOcean/Domain/Record.pm
+lib/DigitalOcean/Droplet.pm
+lib/DigitalOcean/Event.pm
+lib/DigitalOcean/Image.pm
+lib/DigitalOcean/Region.pm
+lib/DigitalOcean/Size.pm
+lib/DigitalOcean/SSH/Key.pm
+lib/DigitalOcean/Types.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+t/00-load.t
+t/01-droplets.t
+t/02-regions.t
+t/03-sizes.t
+t/04-images.t
+t/05-droplet.t
+t/06-image.t
+t/07-ssh_keys.t
+t/08-ssh_key.t
+t/09-domain.t
+t/boilerplate.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+test.pl
+test2.pl
+test3.pl
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
